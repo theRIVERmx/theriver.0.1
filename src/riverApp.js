@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Filters from './NavComp/FilterControllers';
 
 class riverApp extends Component {
   render() {
-    return (
-      <div>
-        <p> HELLO </p>
-      </div>
+    return( 
+      <div className="riverApp"> 
+        <Filters />
+      </div> 
     );
   }
 }

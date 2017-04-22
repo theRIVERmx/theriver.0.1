@@ -1,0 +1,44 @@
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+input {
+    display: none;
+}
+
+input + label {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  opacity: 0.2;
+  margin: 12px;
+}
+
+input:checked + label {
+    opacity: 1;
+}
+
+#stay + label {
+  background-image: url("icon_stay.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#meet + label {
+  background-image: url("icon_meet.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#create + label {
+  background-image: url("icon_work.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#join + label {
+  background-image: url("icon_join.png");
+  background-position: center;
+  background-size: cover;
+}
